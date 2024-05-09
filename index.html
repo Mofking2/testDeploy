@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Css of the animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+     <!-- Include Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <!-- Include Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+
+    <!-- bootstrap grid css -->
+    <link rel="stylesheet" href="css/plugins/bootstrap-grid.css">
+    <!-- font awesome css -->
+    <link rel="stylesheet" href="css/plugins/font-awesome.min.css">
+    <!-- swiper css -->
+    <link rel="stylesheet" href="css/plugins/swiper.min.css">
+    <!-- itsulu css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Ol Afrika Holdings</title>
+</head>
+
+<body>
+
+    <!-- wrapper -->
+    <div class="mil-wrapper">
+        <!-- top bar -->
+        <div class="mil-top-position mil-fixed">
+            <div class="mil-top-panel mil-top-panel-transparent mil-animated">
+                <!-- mil-top-panel-transparent -->
+                <!-- Navigation bar and logo -->
+                <div class="container">
+                    <a href="index.html" class="mil-logo" style="width: 140px"></a>
+                    <div class="mil-navigation">
+                        <nav>
+                            <ul>
+                                
+                                <li><a href="portfolio.html">Home</a></li>
+                                <li><a href="blog.html">About Us</a></li>
+                                <li class="mil-has-children">
+                                    <a href="#.">Our Subsidiaries</a>
+                                    <ul>
+                                        <li><a href="service-1.html">Ol Afrika Media</a></li>
+                                        <li><a href="service-2.html">Ol Afrika kommunication</a></li>
+                                         <li><a href="service-4.html">Ol Afrika Akademy</a></li>
+                                        <li><a class="green" href="service-3.html">Ol Afrika Green</a></li>
+                                        <li><a href="service-4.html">Ol Afrika Solutions</a></li>
+
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                                <li> <a href="contact.html" class="non-profitButton"><span>Our Npo</span></a></li>
+                            </ul>
+                          
+                                   
+                              
+                            <div class="mil-search-icon">
+                                <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M20.5848 19.7029C20.3908 19.8999 20.1358 19.997 19.8808 19.997C19.6268 19.997 19.3718 19.8999 19.1778 19.7029L15.5118 16.2199C13.9778 17.2549 12.3798 17.997 9.92584 17.997C4.98484 17.997 0.964844 13.959 0.964844 8.99695C0.964844 4.34995 4.98484 0.199951 9.92584 0.199951C14.8668 0.199951 18.8858 4.34995 18.8858 8.99695C18.8858 11.118 18.1468 13.68 16.9188 14.608L20.5848 18.29C20.9738 18.681 20.9738 19.3129 20.5848 19.7029ZM9.92584 1.99695C6.82984 1.99695 2.95684 5.13695 2.95684 8.99695C2.95684 12.857 6.82984 15.998 9.92584 15.998C11.8398 15.998 13.5758 15.217 14.8368 13.957C14.8408 13.952 14.8418 13.945 14.8468 13.941C14.8518 13.936 14.8578 13.935 14.8628 13.93C16.1168 12.663 16.8948 10.92 16.8948 8.99695C16.8948 5.13695 13.7678 1.99695 9.92584 1.99695Z" />
+                                </svg>
+                            </div>
+                        </nav>
+
+                    </div>
+                    <!-- mobile menu button -->
+                    <div class="mil-menu-btn">
+                        <span></span>
+                    </div>
+                    <!-- mobile menu button end -->
+                </div>
+                 <!--End of Navigation bar and logo -->
+            </div>
+        </div>
+        <!-- top bar end -->
+
+        <!-- banner -->
+        <div class="mil-banner mil-top-space-0">
+            <div class="swiper-container mil-banner-slideshow">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/photo/banner.png" class="mil-background-image" style="object-position: center" data-swiper-parallax="-100" data-swiper-parallax-scale="1.1" alt="image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/photo/tractorGreen.jpg" class="mil-background-image" style="object-position: center" data-swiper-parallax="-100" data-swiper-parallax-scale="1.1" alt="image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/photo/truckGarden.png" class="mil-background-image" style="object-position: center" data-swiper-parallax="-100" data-swiper-parallax-scale="1.1" alt="image">
+                    </div>
+                </div>
+            </div>
+            <div class="mil-overlay"></div>
+
+            <div class="mil-banner-content">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-8">
+                            <span class="mil-suptitle mil-mb-60"><span class="mil-light">The Next</span> <span class="mil-accent">Gen</span></span>
+                            <h2 class="mil-mb-40 "><span class="mil-uppercase mil-light">OL AFRIKA <br>HOLDINGS</span> <br><span class="mil-font-3 mil-accent " style="padding-top: 10px;">We aspire to be a catalyst for positive change</span></h2>
+                            <div class="mil-flex-hori-center">
+                                <div>
+                                    <a href="contact.html" class="mil-button mil-border mil-light"><span>Learn More</span></a>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <div class="col-xl-4">
+                            <div class="mil-illustration-1">
+                                <div class="mil-item mil-item-1">
+                                    <div class="mil-plus">
+                                        <div class="mil-hover-window">
+                                            <div class="mil-window-content">
+                                                <h5 class="mil-dark mil-mb-15">Experts</h5>
+                                                <div class="mil-divider mil-divider-left mil-mb-15"></div>
+                                                <p class="mil-text-sm">And here's some amazing content. It's very engaging. Right?</p>
+                                            </div>
+                                        </div>
+                                        <div class="mil-item-hover">
+                                            <div class="mil-plus-icon">+</div>
+                                            <h6 class="mil-light">Dedicated Team</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mil-item mil-item-2">
+                                    <div class="mil-plus">
+                                        <div class="mil-hover-window">
+                                            <div class="mil-window-content">
+                                                <h5 class="mil-dark mil-mb-15">Experts</h5>
+                                                <div class="mil-divider mil-divider-left mil-mb-15"></div>
+                                                <p class="mil-text-sm">And here's some amazing content. It's very engaging. Right?</p>
+                                            </div>
+                                        </div>
+                                        <div class="mil-item-hover">
+                                            <div class="mil-plus-icon">+</div>
+                                            <h6 class="mil-light">Developers</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mil-item mil-item-3">
+                                    <div class="mil-plus">
+                                        <div class="mil-hover-window">
+                                            <div class="mil-window-content">
+                                                <h5 class="mil-dark mil-mb-15">Experts</h5>
+                                                <div class="mil-divider mil-divider-left mil-mb-15"></div>
+                                                <p class="mil-text-sm">And here's some amazing content. It's very engaging. Right?</p>
+                                            </div>
+                                        </div>
+                                        <div class="mil-item-hover">
+                                            <div class="mil-plus-icon">+</div>
+                                            <h6 class="mil-light">Designers</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- banner end -->
+
+        <div class="container">
+            <div class="mil-divider"></div>
+        </div>
+
+        <!-- services -->
+        <section class="mil-services mil-mt-80 mil-p-120-90">
+
+            <div class="container" data-aos="fade-zoom-in" data-aos-duration="1200">
+                <h4 class="">Who are we?</h4>
+               
+                <div class="row" >
+                    <div class="mil-mb-100 ">
+                         <h2 class="mil-mb-5">A Black, Female and <span class="mil-accent">Youth Led NPO</span></h2>
+                         <p class="">OL Afrika Media Foundation, a 100% black, female and youth led Multimedia non-profit established in 2016.
+we are more than just a multimedia non-profit; we are a catalyst for change, empowerment, and cultural
+enrichment. With a firm commitment to Africa's vibrant narrative, Our mission is to nurture and elevate the next
+generation of creatives and storytellers, empowering them to share their voices on a global stage.
+<br>
+Through
+comprehensive training programs, internships, and learnerships, we provide young people with the skills and
+opportunities they need to succeed in diverse career paths, ranging from multimedia to business, finance and ICT
+opportunities that support our multimedia sector.
+<br>
+Our focus on youth development extends beyond skill-building; we are dedicated to instilling confidence and
+resilience in the Black child of South Africa,
+equipping them to navigate both local 
+and international landscapes with ease. Central to our vision is the belief in
+the power of African stories to captivate and inspire audiences worldwide. Through our support of emerging
+musicians
+ and creators, we ensure that their voices are heard and their talent recognized on international
+platforms. At the heart of our work lies our tagline,
+“Afrika to the World”
+, encapsulating our dedication to
+amplifying African narratives and fostering connections that transcend borders.</p>
+                      
+  
+                    </div>
+
+
+                    <br>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- services end -->
+        <!-- Mission and Vision -->
+        <section class="mil-contact mil-gradient-bg mil-p-120-0">
+            <div class="mil-deco mil-deco-accent" style="top: 0; right: 10%;"></div>
+            <div class="container ">
+                <h2 class="mil-yellowTitle mil-mb-90 center ">Mission and Vision </h2>
+               
+                    <div class="row mil-mb-80">
+                        <div class="" data-aos="fade-up">
+
+                            <div class="mil-input-frame mil-mb-30">
+                                <label><span class="mil-accent">Mission</span></label>
+                                <span class="mil-light"><p>To improve the quality of life for underserved communities through philanthropic initiatives, strategic partnerships, and innovative solutions. We aim to address pressing social and environmental challenges while fostering sustainable change.</p></span>
+                            </div>
+                            <div class="mil-input-frame mil-mb-30">
+                                <label><span class="mil-accent">Vision</span></label>
+                                <span class="mil-light"><p>Is to create a world where every individual has equal access to opportunities, resources, and a sustainable environment. We aspire to be a catalyst for positive change, shaping a brighter and more equitable future for generations to come</p></span>
+                            </div>
+                        </div>
+                       
+                    </div>
+<div class="row">
+                        <h2 class="mil-yellowTitle mil-mb-30 center ">Empowerment Hub </h2>
+<div class="">
+
+ /*The empowerment hub card list */
+<div class="container empowermenthub" data-aos="fade-up" data-aos-duration="1200">
+  <div class="gradient-cards" >
+
+
+                            <div class="mil-hover-card">
+                                <h4 class="mil-mb-30" style="color:white;">SEO and Optimazation</h4>
+                                <p class="mil-mb-50">Accelerate innovation with world class tech teams our all service.</p>
+                                <div class="mil-divider mil-divider-left mil-mb-50"></div>
+                                <ul class="mil-simple-list mil-mb-50">
+                                    <li>Accelerate innovation.</li>
+                                    <li>With world-class tech teams.</li>
+                                    <li>Our all service offerings to enhance.</li>
+                                    <li>Simply drag, drop and customize.</li>
+                                </ul>
+                                <a href="#." class="mil-link"><span>Learn More</span><i class="fas fa-arrow-right"></i></a>
+                            </div>
+
+                            <div class="mil-hover-card">
+                                <h4 class="mil-mb-30" style="color:white;">SEO and Optimazation</h4>
+                                <p class="mil-mb-50">Accelerate innovation with world class tech teams our all service.</p>
+                                <div class="mil-divider mil-divider-left mil-mb-50"></div>
+                                <ul class="mil-simple-list mil-mb-50">
+                                    <li>Accelerate innovation.</li>
+                                    <li>With world-class tech teams.</li>
+                                    <li>Our all service offerings to enhance.</li>
+                                    <li>Simply drag, drop and customize.</li>
+                                </ul>
+                                <a href="#." class="mil-link"><span>Learn More</span><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                            <div class="mil-hover-card">
+                                <h4 class="mil-mb-30" style="color:white;">SEO and Optimazation</h4>
+                                <p class="mil-mb-50">Accelerate innovation with world class tech teams our all service.</p>
+                                <div class="mil-divider mil-divider-left mil-mb-50"></div>
+                                <ul class="mil-simple-list mil-mb-50">
+                                    <li>Accelerate innovation.</li>
+                                    <li>With world-class tech teams.</li>
+                                    <li>Our all service offerings to enhance.</li>
+                                    <li>Simply drag, drop and customize.</li>
+                                </ul>
+                                <a href="#." class="mil-link"><span>Learn More</span><i class="fas fa-arrow-right"></i></a>
+                            </div>
+
+                            <div class="mil-hover-card">
+                                <h4 class="mil-mb-30" style="color:white;">SEO and Optimazation</h4>
+                                <p class="mil-mb-50">Accelerate innovation with world class tech teams our all service.</p>
+                                <div class="mil-divider mil-divider-left mil-mb-50"></div>
+                                <ul class="mil-simple-list mil-mb-50">
+                                    <li>Accelerate innovation.</li>
+                                    <li>With world-class tech teams.</li>
+                                    <li>Our all service offerings to enhance.</li>
+                                    <li>Simply drag, drop and customize.</li>
+                                </ul>
+                                <a href="#." class="mil-link"><span>Learn More</span><i class="fas fa-arrow-right"></i></a>
+                            </div>
+  </div>
+</div>
+/*End of The empowerment hub card list */
+
+</div>
+</div>
+                   
+</div>
+</section>
+        <!-- End of mission end -->
+
+        <!-- Gallery -->
+        <section class="mil-works mil-p-120-8">
+            <!-- Start of the container of the gallery --> 
+            <div class="container">
+                <div class="row  mil-mb-30 mil-mt-30 gall center">
+                    <div class="   ">
+
+                        <h1 class="mil-yellowTitle mil-text-center">Gallery</h1>
+                        <p><i>Some of our work in High Rotation on our National and International broadcasters.</i></p>
+
+                    </div>
+                <p class="">i have to add a navigation tab here for video and pictures</p>
+                </div>
+<!--Start of the tabs on the gallery-->
+
+
+
+<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist" data-aos="fade-up" data-aos-duration="1200">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><b>Videos</b></button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><b>Images</b></button>
+  </li>
+  
+</ul>
+<div class="tab-content" id="pills-tabContent" data-aos="fade-up" data-aos-duration="1200">
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+        <div class="swiper-container mil-works-slider mil-mb-90">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+
+                            <a href="project.html" class="mil-card">
+                                <div class="mil-cover-frame">
+                                    <img src="img/projects/truckGarden.png" alt="project">
+                                </div>
+                                <div class="mil-description">
+                                    <div class="mil-card-title">
+                                      
+                                        <h6><span class="mil-accent">Nguta Ithya</span></h6>
+                                    </div>
+                                   
+                                </div>
+                                
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+
+                            <a href="project.html" class="mil-card">
+                                <div class="mil-cover-frame">
+                                    <img src="img/projects/tractorGreen.jpg" alt="project">
+                                </div>
+                                <div class="mil-description">
+                                    <div class="mil-card-title">
+                                       
+                                        <h6>by: <span class="mil-accent">Nguta Ithya</span></h6>
+                                    </div>
+                                    
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+
+                            <a href="project.html" class="mil-card">
+                                <div class="mil-cover-frame">
+                                    <img src="img/projects/banner.png" alt="project">
+                                </div>
+                                <div class="mil-description">
+                                    <div class="mil-card-title">
+                                       
+                                        <h6>by: <span class="mil-accent">Roy Bricks</span></h6>
+                                    </div>
+                                    
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+
+                            <a href="project.html" class="mil-card">
+                                <div class="mil-cover-frame">
+                                    <img src="img/projects/tractorGreen.jpg" alt="project">
+                                </div>
+                                <div class="mil-description">
+                                    <div class="mil-card-title">
+                                        
+                                        <h6>by: <span class="mil-accent">Nguta Ithya</span></h6>
+                                    </div>
+                                    
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Slider Controllers-->
+                    <div class="col-md-6 col-xl-6">
+
+                        <div class="mil-adaptive-right">
+                            <div class="mil-slider-nav  mil-mt-30">
+                                <div class="mil-slider-btn-prev mil-works-prev"><i class="fas fa-arrow-left"></i><span class="mil-h6">Prev</span></div>
+                                <div class="mil-slider-btn-next mil-works-next"><span class="mil-h6">Next</span><i class="fas fa-arrow-right"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End of Slider Controllers-->
+                </div>
+                <!--End of Slider of the video tab-->
+          </div>
+
+
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+
+            <div class="swiper-container mil-works-slider mil-mb-90">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+
+                            <a href="project.html" class="mil-card">
+                                <div class="mil-cover-frame">
+                                    <img src="img/projects/truckGarden.png" alt="project">
+                                </div>
+                                <div class="mil-description">
+                                    <div class="mil-card-title">
+                                      
+                                        <h6><span class="mil-accent">Nguta Ithya</span></h6>
+                                    </div>
+                                   
+                                </div>
+                                
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+
+                            <a href="project.html" class="mil-card">
+                                <div class="mil-cover-frame">
+                                    <img src="img/projects/tractorGreen.jpg" alt="project">
+                                </div>
+                                <div class="mil-description">
+                                    <div class="mil-card-title">
+                                       
+                                        <h6>by: <span class="mil-accent">Nguta Ithya</span></h6>
+                                    </div>
+                                    
+                                </div>
+                            </a>
+                        </div>
+                       
+                    </div>
+                   
+                </div>
+
+          </div>
+         
+</div>
+
+<!--End of the tabs on the gallery-->
+            
+              
+            </div>
+           <!-- End of Container of the gallery --> 
+        </section>
+        <!-- Gallery end -->
+
+
+
+        <!-- reviews -->
+        <hr>
+        <section class="mil-reviews mil-deep-bg mil-p-60-60">
+            <div class="mil-deco" style="top: -9%; right: 20%;"></div>
+            <div class="container">
+                <div class="row align-items-center mil-mb-90">
+                    <div class="">
+
+                        <h2 class=" mil-yellowTitle  mil-mb-30">Our Location</h2>
+                        <h2 data-aos="fade-up" data-aos-duration="1200">What Our <span class="mil-accent">Clients</span> Say</h2>
+
+                    </div>
+                    
+                    <div id="map" style="height: 400px;"></div>
+                </div>
+                
+         
+            </div>
+        </section>
+        <!-- reviews end -->
+
+          <!-- contact -->
+        <section class="mil-contact mil-gradient-bg mil-p-120-0">
+            <div class="mil-deco mil-deco-accent" style="top: 0; right: 10%;"></div>
+            <div class="container">
+                <h2 class="mil-light mil-mb-90">Contact <span class="mil-accent">Us</span></h2>
+                <form id="myForm" method="post" enctype="multipart/form-data">
+                    <div class="row">
+                        <div class="col-lg-6">
+
+                            <div class="mil-input-frame mil-mb-30">
+                                <label><span class="mil-light">Name</span><span class="mil-accent">Required</span></label>
+                                <input type="text" id="firstName" name="name" required placeholder="Enter Your Name Here">
+                            </div>
+                            <div class="mil-input-frame mil-mb-30">
+                                <label><span class="mil-light">Email Adress</span><span class="mil-accent">Required</span></label>
+                                <input type="email" name="email" required id="email" placeholder="Your Email">
+                            </div>
+                            <div class="mil-input-frame mil-mb-60">
+                                <label><span class="mil-light">Phone</span><span class="mil-light-soft">Optional</span></label>
+                                <input type="tel" name="phone" placeholder="Your Phone">
+                            </div>
+                            <div class="mil-attach-frame mil-mb-60">
+                                <i class="fas fa-paperclip"></i>
+                                <label class="mil-custom-file-input">
+                                    <span>Attach your file</span>
+                                    <input type="file" name="userfile" accept="application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint,
+                                    text/plain, application/pdf, image/*" id="mil-file-input">
+                                </label>
+                                <p class="mil-text-sm mil-light-soft">up to 20MB</p>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-6">
+
+                            <div class="mil-input-frame mil-mb-30">
+                                <label><span class="mil-light">Your Message</span><span class="mil-accent">Required</span></label>
+                                <textarea placeholder="Your Message" name="message"></textarea>
+                            </div>
+                            <p class="mil-text-sm mil-light-soft mil-mb-15">We will process your personal information in accordance with our Privacy Policy.</p>
+
+                            <div class="mil-checbox-frame mil-mb-60">
+                                <input class="mil-checkbox" id="checkbox-1" type="checkbox" name="agree" value="1" required>
+                                <label for="checkbox-1" class="mil-text-sm mil-light">I would like to be contacted with news and updates about your <a href="#." class="mil-accent">events and services</a></label>
+                            </div>
+
+                        </div>
+                        <div class="col-12">
+
+                            <button type="submit" id = "submitBtn" class="mil-button mil-accent-bg mil-fw"><span>Send Message Now</span></button>
+
+                        </div>
+                    </div>
+                    <div class="alert-success" style="display: none;"><h5>Thanks, your message is sent successfully.</h5></div>
+                    <div class="alert-error" style="display: none;"><h5>Error! Message could not be sent.</h5></div>
+                </form>
+            </div>
+        </section>
+        <!-- contact end -->
+            
+        
+        <!-- footer -->
+        <footer class="mil-dark-bg">
+            <img src="img/deco/map.png" alt="background" class="mil-footer-bg">
+            <div class="container">
+                <div class="mil-footer-content mil-p-120-90">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-xl-4 mil-mb-30">
+
+                           
+
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="mil-divider mil-light"></div>
+
+                <div class="mil-footer-links">
+                    <ul class="mil-social mil-light">
+                        <li class="mil-adapt-links"><a href="#.">Facebook</a><a href="#.">FB</a></li>
+                        <li class="mil-adapt-links"><a href="#.">Instagram</a><a href="#.">IG</a></li>
+                        <li class="mil-adapt-links"><a href="#.">LinkedIn</a><a href="#.">IN</a></li>
+                        <li class="mil-adapt-links"><a href="#.">Twitter</a><a href="#.">TW</a></li>
+                        <li class="mil-adapt-links"><a href="#.">YouTube</a><a href="#.">YT</a></li>
+                    </ul>
+                    <ul class="mil-additional-links mil-light">
+                        <li><a href="#.">Terms & Condition</a></li>
+                        <li><a href="#.">Privacy Policy</a></li>
+                        <li><a href="#.">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mil-footer-bottom">
+                <div class="container">
+                    <p class="mil-text-sm mil-light">© Olafrikaholdings 2024.</p>
+                    <p class="mil-text-sm mil-light">All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+        <!-- footer end -->
+
+    </div>
+    <!-- wrapper end -->
+
+    <!-- jQuery js -->
+    <script src="js/plugins/jquery.min.js"></script>
+    <!-- swiper js -->
+    <script src="js/plugins/swiper.min.js"></script>
+    <!-- itsulu js -->
+    <script src="js/main.js"></script>
+    <script src="js/GettingVAlues.js"></script>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+     <!--Javascript of the animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+    <!--End of Javascript of the animation -->
+
+ 
+    <script>
+        // Initialize the map
+        var map = L.map('map');
+
+        // Add the tile layer (base map)
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Function to center the map on a specific location and add a marker
+        function addMarkerAndCenterMap(latitude, longitude) {
+            var locationLatLng = [-26.19280633885757, 28.036951747349047];
+
+            // Add marker to the specified location
+            L.marker(locationLatLng).addTo(map);
+
+            // Set view to the specified location with a zoom level of 13
+            map.setView(locationLatLng, 16);
+        }
+
+        // Call the function to center the map on the specified location and add a marker
+        addMarkerAndCenterMap(-26.19280633885757, 28.036951747349047); // Replace YourLatitude and YourLongitude with actual latitude and longitude values
+    </script>
+
+<?php
+                        echo "hello";
+            ?>
+</body>
+
+</html>

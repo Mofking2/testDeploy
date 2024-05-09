@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>ITSulu - IT Solutions & Services HTML5 Template</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="assets/style.css">
+	<link rel="stylesheet" href="assets/table.css">
+</head>
+<body>
+	<header class="dt-header dt-header_blue">
+		<span class="dt-logo">ITSulu - IT Solutions & Services HTML5 Template</span>
+    <span class="dt-contact"><a href="https://bslthemes.com/support" target="_blank">Contact Us</a></span>
+	</header>
+	<div class="dt-container dt-container_flex">
+		<aside class="dt-navbar">
+			<nav class="dt-navbar__nav">
+				<div class="dt-navbar__section">
+					<ul class="dt-navbar__list">
+						<li><a href="#files_structure" class="dt-navbar__link">File structure</a></li>
+						<li>
+							<a href="#settings" class="dt-navbar__link">Settings</a>
+							<ul class="dt-navbar__list">
+								<li><a href="#include_fonts" class="dt-navbar__link dt-navbar__link_nested">Include Fonts</a></li>
+								<li><a href="#include_icons" class="dt-navbar__link dt-navbar__link_nested">Edit Icons</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#html_structure" class="dt-navbar__link">HTML structure</a>
+							<ul class="dt-navbar__list">
+								<li><a href="#html_structure_header" class="dt-navbar__link dt-navbar__link_nested">"Header" Section</a></li>
+								<li><a href="#html_structure_footer" class="dt-navbar__link dt-navbar__link_nested">"Footer" Section</a></li>
+								<li><a href="#html_structure_home" class="dt-navbar__link dt-navbar__link_nested">"Home" Page</a></li>
+								<li><a href="#html_structure_inner" class="dt-navbar__link dt-navbar__link_nested">"Inner" Pages</a></li>
+							</ul>
+						</li>
+						<li><a href="#icons" class="dt-navbar__link">Icons</a></li>
+						<li><a href="#credits" class="dt-navbar__link">Credits</a></li>
+					</ul>
+				</div>
+			</nav>
+		</aside>
+		<div class="dt-content dt-content_scroll-bar-yes">
+			<div class="dt-section">
+				<h2 class="dt-title">ITSulu - IT Solutions & Services HTML5 Template</h2>
+				<p>by: <a href="https://bslthemes.com" target="_blank">bslthemes Team</a></p>
+				<p>Thank you for your purchase.<br> If you have any questions, you can contact with us by email <a href="mailto:beshleyua@gmail.com">beshleyua@gmail.com</a> or through our <a href="https://bslthemes.com/support" target="_blank">website</a> to get support.</p>
+			</div>
+			<article id="files_structure" class="dt-section">
+				<h2 class="dt-title">File structure</h2>
+				<p>After unpacking archive, you'll see this structure:</p>
+				<div class="dt-info-block">
+					<pre class="code language-html">
+						<code>
+html/
+│
+├──doc/
+├──template/
+│──│──css/
+│──│──│──style.css
+|──|──|──plugins/
+│──│──│──|──bootstrap-grid.css
+│──│──│──|──swiper.min.css
+│──│──│──|──font-awesome.min.css
+│──│──img/
+│──│──fonts/
+│──│──scss/
+│──│──js/
+│──│──│──main.js
+|──|──|──plugins/
+│──│──│──|──jquery.min.js
+│──│──│──|──swiper.min.js
+│──│──404.html
+│──│──about.html
+│──│──blog.html
+│──│──careers.html
+│──│──coming-soon.html
+│──│──contact.html
+│──│──event.html
+│──│──faq.html
+│──│──home-1.html
+│──│──home-2.html
+│──│──portfolio.html
+│──│──prices.html
+│──│──project.html
+│──│──publication.html
+│──│──service-1.html
+│──│──service-2.html
+│──│──service-3.html
+│──│──service-4.html
+│──│──solution-1.html
+│──│──solution-2.html
+│──│──solution-3.html
+│──│──team-single.html
+│──│──team.html
+						</code>
+					</pre>
+				</div>
+				<ul class="dt-list dt-list_nested dt-info-block">
+					<li>
+						<span class="dt-label dt-label_bold">fonts/</span> - webfonts files
+					</li>
+          <li>
+						<span class="dt-label dt-label_bold">css/</span> -  CSS styles for template
+            <ul class="dt-list dt-list_nested">
+							<li><span class="dt-label dt-label_bold">css/style.css</span> - main CSS styles for template</li>
+						</ul>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">js/</span> - JS library for template
+						<ul class="dt-list dt-list_nested">
+							<li><span class="dt-label dt-label_bold">js/main.js</span> - main JS for template</li>
+						</ul>
+					</li>
+          <li>
+						<span class="dt-label dt-label_bold">scss/</span> - scss files for template
+					</li>
+          <li>
+						<span class="dt-label dt-label_bold">img/</span> - all images used in template
+					</li>
+				</ul>
+			</article>
+			<article id="settings" class="dt-section">
+				<h2 class="dt-title">Settings</h2>
+			</article>
+			<article id="include_fonts" class="dt-section">
+				<h2 class="dt-title">Include of fonts</h2>
+				<p>To use fonts, you must add @import in '/css/style.css' file:</p>
+        <p>
+				<pre class="code language-html">
+					<code>
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&family=Sora:wght@100;200;300;400;500;600;700;800&family=Syne:wght@400;500;600;700;800&display=swap");
+					</code>
+				</pre>
+        </p>
+				<p>
+					Next step is to replace "font-family: '...';" to your fonts names.
+				</p>
+			</article>
+			<article id="include_icons" class="dt-section">
+				<h2 class="dt-title">Edit Icons</h2>
+				<p>In this template are defined some of classes for icons, see all icons here - <a href="https://fontawesome.com/icons?d=gallery&s=brands,solid&m=free">https://fontawesome.com/icons?d=gallery&s=brands,solid&m=free</a>, use search and select icons.</p>
+				<p>Copy icon class (for example "fas fa-code") and add to tag in html file like this:</p>
+				<pre class="code language-html">
+					<code>
+&lt;i class="fas fa-pencil-ruler"&gt;&lt;/i&gt;
+					</code>
+				</pre>
+			</article>
+			<article id="html_structure" class="dt-section">
+				<h2 class="dt-title">HTML structure</h2>
+				<pre class="code language-html">
+					<code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="zxx"&gt;
+
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="ie=edge"&gt;
+
+    &lt;!-- bootstrap grid css --&gt;
+    &lt;link rel="stylesheet" href="css/plugins/bootstrap-grid.css"&gt;
+    &lt;!-- font awesome css --&gt;
+    &lt;link rel="stylesheet" href="css/plugins/font-awesome.min.css"&gt;
+    &lt;!-- swiper css --&gt;
+    &lt;link rel="stylesheet" href="css/plugins/swiper.min.css"&gt;
+    &lt;!-- itsulu css --&gt;
+    &lt;link rel="stylesheet" href="css/style.css"&gt;
+    &lt;title&gt;ITSulu&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+    &lt;!-- wrapper --&gt;
+    &lt;div class="mil-wrapper"&gt;
+        &lt;!-- top bar --&gt;
+        &lt;div class="mil-top-position mil-fixed"&gt;
+            ...
+        &lt;/div&gt;
+        &lt;!-- top bar end --&gt;
+
+        &lt;!-- banner --&gt;
+        &lt;div class="mil-banner mil-top-space-0"&gt;
+            ...
+        &lt;/div&gt;
+        &lt;!-- banner end --&gt;
+
+        &lt;!-- partners --&gt;
+        &lt;div class="mil-partners mil-p-90-60"&gt;
+            ...
+        &lt;/div&gt;
+        &lt;!-- partners end --&gt;
+
+        &lt;div class="container"&gt;
+            &lt;div class="mil-divider"&gt;&lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;!-- services --&gt;
+        &lt;section class="mil-services mil-p-120-90"&gt;
+            ...
+        &lt;/section&gt;
+        &lt;!-- services end --&gt;
+
+        &lt;div class="container"&gt;
+            &lt;div class="mil-divider"&gt;&lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;!-- portfolio --&gt;
+        &lt;section class="mil-works mil-p-120-90"&gt;
+            ...
+        &lt;/section&gt;
+        &lt;!-- portfolio end --&gt;
+
+        &lt;!-- how it works --&gt;
+        &lt;section class="mil-how-it-works mil-deep-bg mil-p-120-90"&gt;
+            ...
+        &lt;/section&gt;
+        &lt;!-- how it works end --&gt;
+
+        &lt;!-- skills --&gt;
+        &lt;section class="mil-skills mil-p-120-90"&gt;
+            ...
+        &lt;/section&gt;
+        &lt;!-- skills end --&gt;
+
+        &lt;div class="container"&gt;
+            &lt;div class="mil-divider"&gt;&lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;!-- blog --&gt;
+        &lt;section class="mil-blog mil-p-120-120"&gt;
+            ...
+        &lt;/section&gt;
+        &lt;!-- blog end --&gt;
+
+        &lt;!-- reviews --&gt;
+        &lt;section class="mil-reviews mil-deep-bg mil-p-120-120"&gt;
+            ...
+        &lt;/section&gt;
+        &lt;!-- reviews end --&gt;
+
+        &lt;!-- contact --&gt;
+        &lt;section class="mil-contact mil-gradient-bg mil-p-120-0"&gt;
+            ...
+        &lt;/section&gt;
+        &lt;!-- contact end --&gt;
+
+        &lt;!-- footer --&gt;
+        &lt;footer class="mil-dark-bg"&gt;
+            ...
+        &lt;/footer&gt;
+        &lt;!-- footer end --&gt;
+
+    &lt;/div&gt;
+    &lt;!-- wrapper end --&gt;
+
+    &lt;!-- jQuery js --&gt;
+    &lt;script src="js/plugins/jquery.min.js"&gt;&lt;/script&gt;
+    &lt;!-- swiper js --&gt;
+    &lt;script src="js/plugins/swiper.min.js"&gt;&lt;/script&gt;
+    &lt;!-- itsulu js --&gt;
+    &lt;script src="js/main.js"&gt;&lt;/script&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;
+            
+					</code>
+				</pre>
+			</article>
+			<article id="html_structure_header" class="dt-section">
+				<h2 class="dt-title">HTML structure of "Header"</h2>
+				<pre class="code language-html">
+					<code>
+&lt;!-- top bar --&gt;
+&lt;div class="mil-top-position mil-fixed"&gt;
+    &lt;div class="mil-top-panel mil-top-panel-transparent mil-animated"&gt;
+        &lt;!-- mil-top-panel-transparent --&gt;
+        &lt;div class="container"&gt;
+            &lt;a href="home-1.html" class="mil-logo" style="width: 140px"&gt;&lt;/a&gt;
+            &lt;div class="mil-navigation"&gt;
+                &lt;nav&gt;
+                    &lt;ul&gt;
+                        &lt;li class="mil-has-children"&gt;
+                            &lt;a href="#."&gt;Enterprise&lt;/a&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a href="about.html"&gt;About us&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="team.html"&gt;Team&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="team-single.html"&gt;Team Member&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="careers.html"&gt;Careers&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="prices.html"&gt;Prices&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="faq.html"&gt;FAQ&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="event.html"&gt;Event&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;&lt;a href="portfolio.html"&gt;Case Studies&lt;/a&gt;&lt;/li&gt;
+                        &lt;li class="mil-has-children"&gt;
+                            &lt;a href="#."&gt;Services&lt;/a&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a href="service-1.html"&gt;Service 1&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="service-2.html"&gt;Service 2&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="service-3.html"&gt;Service 3&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="service-4.html"&gt;Service 4&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/li&gt;
+                        &lt;li class="mil-has-children"&gt;
+                            &lt;a href="#."&gt;Solutions&lt;/a&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a href="solution-1.html"&gt;Solution 1&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="solution-2.html"&gt;Solution 2&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="solution-3.html"&gt;Solution 3&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;&lt;a href="blog.html"&gt;Blog&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="contact.html"&gt;Contact Us&lt;/a&gt;&lt;/li&gt;
+                        &lt;li class="mil-has-children"&gt;
+                            &lt;a href="#."&gt;Other&lt;/a&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a href="coming-soon.html"&gt;Coming Soon&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="404.html"&gt;404&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;div class="mil-search-icon"&gt;
+                        &lt;svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg"&gt;
+                            &lt;path fill-rule="evenodd" clip-rule="evenodd" d="M20.5848 19.7029C20.3908 19.8999 20.1358 19.997 19.8808 19.997C19.6268 19.997 19.3718 19.8999 19.1778 19.7029L15.5118 16.2199C13.9778 17.2549 12.3798 17.997 9.92584 17.997C4.98484 17.997 0.964844 13.959 0.964844 8.99695C0.964844 4.34995 4.98484 0.199951 9.92584 0.199951C14.8668 0.199951 18.8858 4.34995 18.8858 8.99695C18.8858 11.118 18.1468 13.68 16.9188 14.608L20.5848 18.29C20.9738 18.681 20.9738 19.3129 20.5848 19.7029ZM9.92584 1.99695C6.82984 1.99695 2.95684 5.13695 2.95684 8.99695C2.95684 12.857 6.82984 15.998 9.92584 15.998C11.8398 15.998 13.5758 15.217 14.8368 13.957C14.8408 13.952 14.8418 13.945 14.8468 13.941C14.8518 13.936 14.8578 13.935 14.8628 13.93C16.1168 12.663 16.8948 10.92 16.8948 8.99695C16.8948 5.13695 13.7678 1.99695 9.92584 1.99695Z" /&gt;
+                        &lt;/svg&gt;
+                    &lt;/div&gt;
+                &lt;/nav&gt;
+
+            &lt;/div&gt;
+            &lt;!-- mobile menu button --&gt;
+            &lt;div class="mil-menu-btn"&gt;
+                &lt;span&gt;&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;!-- mobile menu button end --&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- top bar end --&gt;
+					</code>
+				</pre>
+			</article>
+			<article id="html_structure_footer" class="dt-section">
+				<h2 class="dt-title">HTML structure of "Footer"</h2>
+				<pre class="code language-html">
+					<code>
+&lt;!-- footer --&gt;
+&lt;footer class="mil-dark-bg"&gt;
+    &lt;img src="img/deco/map.png" alt="background" class="mil-footer-bg"&gt;
+    &lt;div class="container"&gt;
+        &lt;div class="mil-footer-content mil-p-120-90"&gt;
+            &lt;div class="row justify-content-between align-items-center"&gt;
+                &lt;div class="col-xl-4 mil-mb-30"&gt;
+
+                    &lt;img src="img/logo/logo-light.png" alt="" class="mil-logo mil-mb-30" style="width: 140px"&gt;
+
+                    &lt;p class="mil-light-soft mil-mb-30"&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.&lt;/p&gt;
+
+                    &lt;a href="#." class="mil-app-btn mil-mb-5"&gt;
+                        &lt;i class="fab fa-google-play"&gt;&lt;/i&gt;
+                        &lt;div class="mil-app-text"&gt;
+                            &lt;span class="mil-accent mil-text-sm"&gt;Available on the&lt;/span&gt;
+                            &lt;div class="mil-h6"&gt;Google Play&lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/a&gt;
+
+                    &lt;a href="#." class="mil-app-btn"&gt;
+                        &lt;i class="fab fa-apple"&gt;&lt;/i&gt;
+                        &lt;div class="mil-app-text"&gt;
+                            &lt;span class="mil-accent mil-text-sm"&gt;Download on the&lt;/span&gt;
+                            &lt;div class="mil-h6"&gt;App Store&lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/a&gt;
+
+                &lt;/div&gt;
+                &lt;div class="col-xl-7 mil-mt-60-adapt"&gt;
+
+                    &lt;div class="row"&gt;
+                        &lt;div class="col-lg-7 mil-mb-30"&gt;
+
+                            &lt;h3 class="mil-light mil-up-font mil-mb-30"&gt;Join The &lt;span class="mil-accent"&gt;ITSulu&lt;/span&gt; &lt;br&gt;Experience&lt;/h3&gt;
+                            &lt;p class="mil-light-soft"&gt;Lorem ipsum dolor sit amet, consectetuer&lt;br&gt; adipiscing elit, sed diam nonummy.&lt;/p&gt;
+
+                        &lt;/div&gt;
+                        &lt;div class="col-lg-5 mil-mb-30"&gt;
+
+                            &lt;form&gt;
+
+                                &lt;input class="mil-rounded-input mil-text-center mil-mb-5" type="text" placeholder="Your email address"&gt;
+                                &lt;button class="mil-button mil-accent-bg mil-fw"&gt;&lt;span&gt;Subscribe Now&lt;/span&gt;&lt;/button&gt;
+
+                            &lt;/form&gt;
+
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="mil-divider mil-light"&gt;&lt;/div&gt;
+
+        &lt;div class="mil-footer-links"&gt;
+            &lt;ul class="mil-social mil-light"&gt;
+                &lt;li class="mil-adapt-links"&gt;&lt;a href="#."&gt;Facebook&lt;/a&gt;&lt;a href="#."&gt;FB&lt;/a&gt;&lt;/li&gt;
+                &lt;li class="mil-adapt-links"&gt;&lt;a href="#."&gt;Instagram&lt;/a&gt;&lt;a href="#."&gt;IG&lt;/a&gt;&lt;/li&gt;
+                &lt;li class="mil-adapt-links"&gt;&lt;a href="#."&gt;LinkedIn&lt;/a&gt;&lt;a href="#."&gt;IN&lt;/a&gt;&lt;/li&gt;
+                &lt;li class="mil-adapt-links"&gt;&lt;a href="#."&gt;Twitter&lt;/a&gt;&lt;a href="#."&gt;TW&lt;/a&gt;&lt;/li&gt;
+                &lt;li class="mil-adapt-links"&gt;&lt;a href="#."&gt;YouTube&lt;/a&gt;&lt;a href="#."&gt;YT&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;ul class="mil-additional-links mil-light"&gt;
+                &lt;li&gt;&lt;a href="#."&gt;Terms & Condition&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#."&gt;Privacy Policy&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#."&gt;Sitemap&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="mil-footer-bottom"&gt;
+        &lt;div class="container"&gt;
+            &lt;p class="mil-text-sm mil-light"&gt;© ITSulu 2023.&lt;/p&gt;
+            &lt;p class="mil-text-sm mil-light"&gt;All Rights Reserved.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/footer&gt;
+&lt;!-- footer end --&gt;
+					</code>
+				</pre>
+			</article>
+			<article id="html_structure_home" class="dt-section">
+				<h2 class="dt-title">HTML structure of "Home" pages</h2>
+				<pre class="code language-html">
+					<code>
+&lt;!-- banner --&gt;
+&lt;div class="mil-banner mil-top-space-0"&gt;
+    ...
+&lt;/div&gt;
+&lt;!-- banner end --&gt;
+
+&lt;!-- partners --&gt;
+&lt;div class="mil-partners mil-p-90-60"&gt;
+    ...
+&lt;/div&gt;
+&lt;!-- partners end --&gt;
+
+&lt;div class="container"&gt;
+    &lt;div class="mil-divider"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- services --&gt;
+&lt;section class="mil-services mil-p-120-90"&gt;
+    ...
+&lt;/section&gt;
+&lt;!-- services end --&gt;
+
+&lt;div class="container"&gt;
+    &lt;div class="mil-divider"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- portfolio --&gt;
+&lt;section class="mil-works mil-p-120-90"&gt;
+    ...
+&lt;/section&gt;
+&lt;!-- portfolio end --&gt;
+
+&lt;!-- how it works --&gt;
+&lt;section class="mil-how-it-works mil-deep-bg mil-p-120-90"&gt;
+    ...
+&lt;/section&gt;
+&lt;!-- how it works end --&gt;
+
+&lt;!-- skills --&gt;
+&lt;section class="mil-skills mil-p-120-90"&gt;
+    ...
+&lt;/section&gt;
+&lt;!-- skills end --&gt;
+
+&lt;div class="container"&gt;
+    &lt;div class="mil-divider"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- blog --&gt;
+&lt;section class="mil-blog mil-p-120-120"&gt;
+    ...
+&lt;/section&gt;
+&lt;!-- blog end --&gt;
+
+&lt;!-- reviews --&gt;
+&lt;section class="mil-reviews mil-deep-bg mil-p-120-120"&gt;
+    ...
+&lt;/section&gt;
+&lt;!-- reviews end --&gt;
+
+&lt;!-- contact --&gt;
+&lt;section class="mil-contact mil-gradient-bg mil-p-120-0"&gt;
+    ...
+&lt;/section&gt;
+&lt;!-- contact end --&gt;
+					</code>
+				</pre>
+			</article>
+			<article id="html_structure_inner" class="dt-section">
+				<h2 class="dt-title">HTML structure of "Inner" pages</h2>
+				<pre class="code language-html">
+					<code>
+&lt;!-- banner --&gt;
+&lt;div class="mil-banner-sm mil-deep-bg"&gt;
+    ...
+&lt;/div&gt;
+&lt;!-- banner end --&gt;
+
+&lt;!-- team --&gt;
+&lt;section class="mil-team mil-p-120-60"&gt;
+    ...
+&lt;/section&gt;
+&lt;!-- team end --&gt;
+
+&lt;div class="container"&gt;
+    &lt;div class="mil-divider"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- icon boxes --&gt;
+&lt;section class="mil-icon-boxes mil-p-120-60"&gt;
+    ...
+&lt;/section&gt;
+&lt;!-- icon boxes end --&gt;
+
+&lt;!-- call to action --&gt;
+&lt;section class="call-to-action mil-gradient-bg mil-p-120-0"&gt;
+    ...
+&lt;/section&gt;
+&lt;!-- call to action end --&gt;
+					</code>
+				</pre>
+			</article>
+			<article id="icons" class="dt-section">
+				<h2 class="dt-title">Icons</h2>
+				<p>
+					In this template are defined some of classes for icons, you can see all icons here - https://fontawesome.com/icons?d=gallery&s=brands,solid&m=free
+				</p>
+			</article>
+			<article id="credits" class="dt-section">
+				<h2 class="dt-title">Sourse & Credits</h2>
+				<h3>Scripts</h3>
+				<ul class="dt-list dt-list_nested dt-info-block">
+					<li>
+						<span class="dt-label dt-label_bold">jQuery</span> <a target="_blank" href="https://jquery.com/">https://jquery.com/</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">Bootstrap</span> <a target="_blank" href="https://getbootstrap.com/">https://getbootstrap.com/</a>
+					</li>
+          <li>
+						<span class="dt-label dt-label_bold">Swiper</span> <a target="_blank" href="https://swiperjs.com/">https://swiperjs.com/</a>
+					</li>
+				</ul>
+				<h3>Fonts</h3>
+				<ul class="dt-list dt-list_nested dt-info-block">
+					<li>
+						<span class="dt-label dt-label_bold">Satisfy</span> by <a target="_blank" href="https://fonts.google.com/specimen/Satisfy">Google Font</a>
+					</li>
+          <li>
+						<span class="dt-label dt-label_bold">Sora</span> by <a target="_blank" href="https://fonts.google.com/specimen/Syne">Google Font</a>
+					</li>
+          <li>
+						<span class="dt-label dt-label_bold">Syne</span> by <a target="_blank" href="https://fonts.google.com/specimen/Syne">Google Font</a>
+					</li>
+          <li>
+						<span class="dt-label dt-label_bold">FontAwesome</span> - <a target="_blank" href="https://fontawesome.com/icons?d=gallery&s=brands,solid&m=free">https://fontawesome.com/</a>
+					</li>
+          <li>
+						<span class="dt-label dt-label_bold">Feather icons</span> - <a target="_blank" href="https://feathericons.com/">https://feathericons.com/</a>
+					</li>
+          
+				</ul>
+				<h3>Images</h3>
+				<p>Any Images or logos used in previews are not included in this item or final purchase.</p>
+				<ul class="dt-list dt-list_nested dt-info-block">
+					<li>
+						<span class="dt-label dt-label_bold">Pexels</span> - <a target="_blank" href="https://www.pexels.com/">https://www.pexels.com/</a>
+          </li>
+          <li>
+            <span class="dt-label dt-label_bold">Pngwing</span> - <a target="_blank" href="https://www.pngwing.com/">https://www.pngwing.com/</a>
+					</li>
+				</ul>
+			</article>
+		</div>
+	</div>
+<script src="assets/rainbow-custom.min.js"></script>
+</body>
+</html>
