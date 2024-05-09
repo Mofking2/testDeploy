@@ -1,0 +1,15 @@
+About US takes you to the blogPage
+
+Home takes you to the home page, Try to make it slide to the banner section.
+
+
+Try to create a contact us page and try to add some information
+
+
+Npo takes you to the Company
+
+
+Try to remove all the links on the navbar of any other page except for the landing/home page
+
+
+Try to add a button that will take you to the top of page.
