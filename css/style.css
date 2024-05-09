@@ -674,11 +674,7 @@ button
 
 ------------------------------------------- */
 
-.npo{
 
-
-
-}
 .mil-button {
   cursor: pointer;
   height: 50px;
@@ -1340,9 +1336,7 @@ footer {
 background
 
 ------------------------------------------- */
-.mil-deep-bg {
 
-}
 
 .mil-dark-bg {
   background-color: rgb(18, 24, 32);
@@ -5348,7 +5342,7 @@ footer
   transition: 0.2s cubic-bezier(0, 0, 0.3642, 1);
 }
 .mil-footer-links ul li:hover a {
-  color: gold; !important;
+  color: gold !important;
   /*color: rgb(245, 124, 0) !important;*/
 }
 .mil-footer-links ul li.mil-adapt-links a:last-child {
@@ -5651,7 +5645,7 @@ additional pages
 .row.middle{
 
 
-  align-text:center;
+  align-items:center;
 }
 .row.mid{
 
