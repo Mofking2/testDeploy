@@ -5524,7 +5524,7 @@ additional pages
 
 
 }
-@media screen and (min-width: 992px) and (max-width: 1439px) {
+@media screen and (mx-width: 992px)  {
   .container.empowermenthub {
   max-width: 1279px !important;
   padding: 0 !important;
