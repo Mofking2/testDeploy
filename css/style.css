@@ -5676,6 +5676,34 @@ additional pages
     animation: r 15s linear infinite;
     position: absolute;
     padding:0 42.5%;
+
+    
+  }
+  @media screen and (max-width: 991px) {
+    .gallery {
+      --s: 100px; /* the image size */
+      
+      display: grid;
+      transform-style: preserve-3d;
+      animation: r 15s linear infinite;
+      position: absolute;
+      padding:0 42.5%;
+  
+      
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .gallery {
+      --s: 70px; /* the image size */
+      
+      display: grid;
+      transform-style: preserve-3d;
+      animation: r 15s linear infinite;
+      position: absolute;
+      padding:0 42.5%;
+  
+      
+    }
   }
   @keyframes r {
     0% {transform: perspective(450px) rotateX(-100deg) rotate(0deg)}
