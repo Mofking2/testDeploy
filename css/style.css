@@ -5526,11 +5526,19 @@ additional pages
 }
 @media screen and (mx-width: 992px)  {
   .container.empowermenthub {
-  max-width: 1279px !important;
+  max-width: 980px !important;
   padding: 0 !important;
   margin: 0 80px !important;
   width: auto !important;
   }
+}
+@media screen and (max-width: 768px) {
+
+  .container.empowermenthub {
+max-width: 759px !important;
+
+}
+
 }
 
 .gradient-cards {
