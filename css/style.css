@@ -869,7 +869,10 @@ link
           filter: brightness(115%);
           background-color:white;
 }
-
+.mil-link:hover span {
+ 
+          color:gold;
+}
 .mil-link.link-left i {
   margin-right: 15px;
   margin-left: 0;
