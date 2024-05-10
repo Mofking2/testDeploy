@@ -5529,8 +5529,12 @@ additional pages
     width: auto !important;
   }
 
- 
-  
+  @media screen and (max-width: 991px) {
+    max-width: 959px !important;
+    margin: 0 16px !important;
+    padding: 0 !important;
+    width: auto !important;
+  }
 }
 
 .gradient-cards {
