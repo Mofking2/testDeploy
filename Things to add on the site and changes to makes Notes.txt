@@ -13,3 +13,6 @@ Try to remove all the links on the navbar of any other page except for the landi
 
 
 Try to add a button that will take you to the top of page.
+
+
+Try to put the slider and all the style in the hosted site
