@@ -5532,7 +5532,14 @@ additional pages
  
   
 }
-
+@media screen and (max-width: 768px) {
+  .container.empowermenthub {
+  max-width: 768px !important;
+  padding: 0 !important;
+  margin: 0 80px !important;
+  width: auto !important;
+  }
+}
 
 .gradient-cards {
   display: grid;
