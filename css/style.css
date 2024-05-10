@@ -5517,7 +5517,7 @@ additional pages
 
 /*The cards style*/
 .container.empowermenthub {
-  width: 1200px !important;
+  width: auto !important;
   padding: 0 !important;
   margin-right: auto;
   margin-left: auto;
@@ -5526,7 +5526,6 @@ additional pages
 }
 @media screen and (max-width: 992px)  {
   .container.empowermenthub {
-  max-width: 980px !important;
   padding: 0 !important;
   margin: 0 80px !important;
   width: auto !important;
@@ -5535,7 +5534,7 @@ additional pages
 @media screen and (max-width: 768px) {
 
   .container.empowermenthub {
-max-width: 759px !important;
+max-width: auto !important;
 
 }
 
@@ -5546,9 +5545,11 @@ max-width: 759px !important;
   grid-template-columns: repeat(2, 1fr);
   gap: 32px;
   padding: 30px;
+  width: auto !important;
   @media screen and (max-width: 991px) {
     grid-template-columns: 1fr;
-    width: 800px !important;
+    width:auto;
+   
   }
 }
 
