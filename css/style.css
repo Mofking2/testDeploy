@@ -5529,19 +5529,13 @@ additional pages
     width: auto !important;
   }
 
-  @media screen and (max-width: 991px) {
+  @media screen and (max-width: 768px) {
     max-width: 159px !important;
     margin: 0 16px !important;
     padding: 0 !important;
     width: auto !important;
   }
 
-  @media screen and (max-width: 768px) {
-    max-width: 759px !important;
-    margin: 0 16px !important;
-    padding: 0 !important;
-    width: auto !important;
-  }
 }
 
 .gradient-cards {
