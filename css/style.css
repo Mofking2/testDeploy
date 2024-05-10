@@ -5517,7 +5517,7 @@ additional pages
 
 /*The cards style*/
 .container.empowermenthub {
-  width: 1000px !important;
+  width: 1200px !important;
   padding: 0 !important;
   margin-right: auto;
   margin-left: auto;
@@ -5540,6 +5540,7 @@ additional pages
   padding: 30px;
   @media screen and (max-width: 991px) {
     grid-template-columns: 1fr;
+    width: 800px;
   }
 }
 
