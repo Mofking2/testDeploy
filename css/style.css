@@ -5529,25 +5529,15 @@ additional pages
     width: auto !important;
   }
 
- 
+  @media screen and (max-width: 991px) {
+    max-width: 959px !important;
+    margin: 0 16px !important;
+    padding: 0 !important;
+    width: auto !important;
+  }
+  
+}
 
-}
-@media screen and (min-width: 992px) and (max-width: 1439px) {
-  .mil-hover-card {
-  max-width: 1279px !important;
-  padding: 0 !important;
-  margin: 0 80px !important;
-  width: auto !important;
-  }
-}
-@media screen and (max-width: 768px) {
-  .mil-hover-card{
-  max-width: 759px !important;
-  margin: 0 16px !important;
-  padding: 0 !important;
-  width: auto !important;
-  }
-}
 .gradient-cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
