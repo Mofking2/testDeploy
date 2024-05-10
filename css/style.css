@@ -5682,12 +5682,7 @@ additional pages
   @media screen and (max-width: 991px) {
     .gallery {
       --s: 100px; /* the image size */
-      
-      display: grid;
-      transform-style: preserve-3d;
-      animation: r 15s linear infinite;
-      position: absolute;
-      padding:0 42.5%;
+      padding:0 41.5%;
   
       
     }
@@ -5696,11 +5691,8 @@ additional pages
     .gallery {
       --s: 70px; /* the image size */
       
-      display: grid;
-      transform-style: preserve-3d;
-      animation: r 15s linear infinite;
-      position: absolute;
-      padding:0 42.5%;
+   
+      padding:0 40.5%;
   
       
     }
