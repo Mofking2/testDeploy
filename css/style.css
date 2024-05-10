@@ -3275,6 +3275,11 @@ card
 }
 .mil-hover-card:hover i {
   background-color: gold;
+  color: red;
+  /*background-color: rgb(245, 124, 0); */
+}
+.mil-hover-card:hover span {
+  background-color: red;
   /*background-color: rgb(245, 124, 0); */
 }
 .mil-hover-card:hover .mil-deco {
