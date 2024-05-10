@@ -871,7 +871,13 @@ link
 }
 .mil-link:hover span {
  
-          background-color:gold;
+          background-color:green;
+          color: red;
+}
+.mil-link:hover i {
+ 
+  background-color:gold;
+  
 }
 .mil-link.link-left i {
   margin-right: 15px;
@@ -3275,11 +3281,6 @@ card
 }
 .mil-hover-card:hover i {
   background-color: gold;
-  color: red;
-  /*background-color: rgb(245, 124, 0); */
-}
-.mil-hover-card:hover span {
-  background-color: red;
   /*background-color: rgb(245, 124, 0); */
 }
 .mil-hover-card:hover .mil-deco {
