@@ -5540,7 +5540,7 @@ additional pages
   padding: 30px;
   @media screen and (max-width: 991px) {
     grid-template-columns: 1fr;
-    width: 800px;
+    width: 800px !important;
   }
 }
 
